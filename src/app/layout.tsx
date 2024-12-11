@@ -34,17 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen w-full bg-gray-50 text-gray-900 antialiased flex flex-col`}
         style={{ fontFeatureSettings: '"kern"' }} 
       >
-        {/* Page Wrapper */}
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Header Section */}
-          <Header />
-
-          {/* Main Content */}
-          <main className="flex-1 py-8">{children}</main>
-
-          {/* Footer Section */}
-          <Footer />
-        </div>
+      {children}
       </body>
     </html>
   );

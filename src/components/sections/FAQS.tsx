@@ -44,7 +44,7 @@ export function FAQSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-gray-200 rounded-xl p-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 rounded-xl p-8">
         {/* Left Column */}
         <div className="space-y-4">
           {leftColumnFaqs.map((faq, index) => (

@@ -25,8 +25,8 @@ export function Footer() {
 
         {/* Logo */}
         <div className="flex items-center gap-2">
-                  <SkepsisLogo/>
-               </div>
+          <SkepsisLogo />
+        </div>
 
         {/* Social Links */}
         <div className="flex gap-6">
